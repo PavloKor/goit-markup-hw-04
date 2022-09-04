@@ -126,6 +126,7 @@ ul {
 /* Шапка */
 
 .section-slogan {
+  background-image: url(/images/Imgbcg1.jpeg);
   background-color: var(--accent-bcg-cl);
   padding: 200px 0;
   text-align: center;
