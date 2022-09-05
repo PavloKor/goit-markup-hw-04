@@ -138,7 +138,7 @@ ul {
 /* Main */
 
 /* Шапка */
-/* Каритинка підлога */
+/* Картинка підлога */
 .section-slogan {
   max-width: 1600px;
   margin-left: auto;
@@ -205,8 +205,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+
   border-radius: 4px;
 }
 
@@ -311,6 +310,9 @@ ul {
 .team-item {
   width: 270px;
   background-color: var(--main-bcg-cl);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-wrap {
   padding-top: 30px;
@@ -343,8 +345,7 @@ ul {
   justify-content: center;
   padding-bottom: 30px;
 }
-.list {
-}
+
 /* Варіант 1
 .socials-link:focus,
 .socials-link:hover {
@@ -387,6 +388,40 @@ ul {
 .social-icon {
   fill: currentColor;
 }
+/*Постійні клієнти*/
+
+.client-title {
+  text-align: center;
+  padding-top: 94px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  letter-spacing: var(--main-letter-s);
+}
+.client {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.client-item {
+  text-align: center;
+  margin-bottom: 94px;
+  padding: 16px;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  color: var(--icon-txt-cl);
+}
+.client-link {
+  fill: currentColor;
+}
+.client-item:hover,
+.client-item:focus {
+  color: var(--accent-txt-cl);
+  border: 1px solid var(--accent-txt-cl);
+}
 
 /* Головна секція у портфоліо */
 
@@ -421,6 +456,8 @@ ul {
 .filter-btn:focus {
   color: var(--btn-txt-cl);
   background-color: var(--btn-bcg-cl);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .projects {
   display: flex;
@@ -429,6 +466,12 @@ ul {
 }
 .project-item {
   width: 370px;
+}
+.project-item:hover,
+.project-item:focus {
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .project-img {
 }
@@ -480,6 +523,10 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
   color: var(--main-bcg-cl);
   text-transform: uppercase;
   margin-bottom: 20px;
