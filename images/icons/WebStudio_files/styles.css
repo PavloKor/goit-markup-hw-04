@@ -100,7 +100,9 @@ ul {
 .projects {
   list-style: none;
 }
-
+.contact-item {
+  gap: 10px;
+}
 .list-contact {
   display: flex;
   gap: 50px;
