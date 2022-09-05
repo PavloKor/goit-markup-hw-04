@@ -124,13 +124,20 @@ ul {
 /* Main */
 
 /* Шапка */
-
+/* Каритинка підлога */
 .section-slogan {
-  background-image: url(/images/Imgbcg1.jpeg);
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../images/Imgbcg1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: var(--accent-bcg-cl);
   padding: 200px 0;
   text-align: center;
 }
+
 .slogan-conteiner {
   /*
   margin-bottom: 94px;
