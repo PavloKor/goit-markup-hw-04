@@ -324,7 +324,6 @@ ul {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-bottom: 16px;
 }
 .team-name {
   margin-bottom: 12px;
@@ -344,7 +343,6 @@ ul {
   display: flex;
   gap: 10px;
   justify-content: center;
-  margin-bottom: 30px;
 }
 
 /* Варіант 1
@@ -401,14 +399,17 @@ ul {
   letter-spacing: var(--main-letter-s);
 }
 .client {
-  display: flex;
-  gap: 30px;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.client-list {
+  display: flex;
+  gap: 30px;
 }
 .client-item {
   width: 170px;
   height: 92px;
+  color: var(--icon-txt-cl);
   /*
   text-align: center;
   padding: 16px;
@@ -427,13 +428,20 @@ ul {
   padding: 16px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  color: var(--icon-txt-cl);
+
   fill: currentColor;
 }
+/*
 .client-item:hover .client-link,
 .client-item:focus .client-link {
   color: var(--accent-txt-cl);
   border: 1px solid var(--accent-txt-cl);
+}*/
+
+.client-link:hover,
+.client-link:focus {
+  color: var(--accent-txt-cl);
+  border: 1 px solid var(--accent-txt-cl);
 }
 
 /* Головна секція у портфоліо */
